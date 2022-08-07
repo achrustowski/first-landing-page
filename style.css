@@ -737,7 +737,7 @@ footer {
     row-gap: 2rem;
     padding-inline: 1rem;
     max-width: 87%;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
   }
 }
 

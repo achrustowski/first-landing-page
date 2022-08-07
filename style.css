@@ -479,6 +479,7 @@ header > img {
   height: 100%;
   max-height: 6rem;
   width: auto;
+  box-sizing: border-box;
 }
 
 .children-group {
@@ -492,6 +493,7 @@ header > img {
 
 .testimonials-paragraph {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .div-img-footer {
@@ -500,6 +502,7 @@ header > img {
   align-items: center;
   justify-content: center;
   padding-bottom: 1.75rem;
+  box-sizing: border-box;
 }
 
 /* Bottom grid */
@@ -606,6 +609,7 @@ footer {
   #hamburger-menu,
   .hamburger {
     position: absolute;
+    opacity: 0;
   }
 }
 
@@ -727,6 +731,8 @@ footer {
 @media (max-width: 40em) {
   .child-grid-secondary {
     row-gap: 1.75rem;
+    max-height: 251px;
+    box-sizing: border-box;
   }
 }
 
@@ -737,7 +743,7 @@ footer {
     row-gap: 2rem;
     padding-inline: 1rem;
     max-width: 87%;
-    /* padding-bottom: 4rem; */
+    padding-bottom: 4rem;
   }
 }
 
